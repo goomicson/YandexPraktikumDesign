@@ -52,15 +52,17 @@ nav {
 
 .screen {
 	position: absolute;
-	transition: ease-in-out 0s;
+	transition: ease-in-out 0.2s;
 }
 
 .right {
 	transform: translateX(100%);
+	transition: ease-in-out 0.2s;
 }
 
 .left {
 	transform: translateX(-100%);
+	transition: ease-in-out 0.2s;
 }
 
 .main-window-home {
